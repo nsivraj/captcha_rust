@@ -55,10 +55,10 @@ extern crate lodepng;
 extern crate rand;
 extern crate serde_json;
 
-mod audio;
+pub mod audio;
 pub mod filters;
-mod fonts;
-mod images;
+pub mod fonts;
+pub mod images;
 mod samples;
 
 pub use samples::{by_name, gen, CaptchaName, Difficulty};
